@@ -1,0 +1,20 @@
+List of reccomendations are sent to users screen 
+User is given the option to accept or decline 
+While user declines item
+	New item will be displayed in items place
+If user accepts item 
+	Send item to users shopping cart 
+While user chooses to accept or decline items
+	Wait for list of items to be complete
+Send user to review page to see all items selected 
+Give option to check out 
+If user selects check out button 
+	Send user to billing and shipping page 
+If user is finished entering information for billing and shipping 
+	Send user to confirmation screen
+Ask user if they want text notifications for order
+If user does not want text notifications 
+	Send confirmation email to email on file 
+If user does want text notification 
+	Send confirmation to both email and number provided
+Send user back to main screen
